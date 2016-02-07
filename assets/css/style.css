@@ -804,9 +804,6 @@ th {
 .pad-left-space {
   padding-left: 1.5rem; }
 
-.pad-top-1spc {
-  padding-top: 1rem; }
-
 .panel-body {
   padding: 2rem;
   font-size: 1.125rem;
@@ -820,6 +817,9 @@ th {
 .error {
   background-color: red;
   color: #fff; }
+
+.pad-forms {
+  padding: 2rem 0; }
 
 .chosen-container {
   font-size: 1.5rem; }

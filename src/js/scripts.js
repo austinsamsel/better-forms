@@ -13,10 +13,14 @@
 
   // init chosen for all select forms
   $("select").chosen();
-
   $('select').first().trigger('chosen:open');
 
+  // let user hit 'enter' to check off checkbox.
+  $('input:checkbox').keypress(function(e){
+    if((e.keyCode ? e.keyCode : e.which) == 13){
+      $(this).click();
+    }
+  });
 
-  //
 
 })(jQuery, window, document);
