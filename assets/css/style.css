@@ -387,10 +387,13 @@ th {
 .push-chk-bx-l {
   position: absolute;
   top: 0;
-  left: 1rem; }
+  left: 0rem; }
 
 .pad-left-space {
-  padding-left: 2.5rem; }
+  padding-left: 1.5rem; }
+
+.pad-top-1spc {
+  padding-top: 1rem; }
 
 @font-face {
   font-family: 'Font-Name';
