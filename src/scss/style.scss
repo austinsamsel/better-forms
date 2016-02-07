@@ -4,8 +4,15 @@
 @import 'mixins/_position.scss';
 
 //----------------------------------*\
+// VENDOR
+//----------------------------------*/
+
+@import 'vendor/_external.scss';
+
+//----------------------------------*\
 // CONFIG MODULES
 //----------------------------------*/
+
 // Config modules
 @import 'modules/_vars.scss';
 @import 'modules/_clearfix.scss';
@@ -35,9 +42,3 @@
 // Enhancement modules
 @import 'modules/_breakpoints.scss';
 @import 'modules/_print.scss';
-
-//----------------------------------*\
-// VENDOR
-//----------------------------------*/
-
-@import 'vendor/_external.scss';
