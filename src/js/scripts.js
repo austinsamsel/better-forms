@@ -12,14 +12,24 @@
   });
 
   // init chosen for all select forms
-  $("select").chosen();
-  $('select').first().trigger('chosen:open');
+  //TODO: chosen is hard to clone,
+  // need to "save" "copy" of raw select form before initialized
+  // then clone that saved copy and initialize chosen on that.
+  //$("select").chosen();
+  //$('select').first().trigger('chosen:open');
 
   // let user hit 'enter' to check off checkbox.
   $('input:checkbox').keypress(function(e){
     if((e.keyCode ? e.keyCode : e.which) == 13){
       $(this).click();
     }
+  });
+
+  // add a family member
+  $(".js-add-member").click(function(e){
+    $('.member-section:first')
+      .clone()
+      .insertAfter('.member-section:last');
   });
 
 
