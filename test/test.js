@@ -1,4 +1,5 @@
 var expect = chai.expect;
+var assert = chai.assert;
 var should = chai.should();
 
 describe("basic stuff", function(){
@@ -6,6 +7,6 @@ describe("basic stuff", function(){
     expect(1).to.equal(1);
   });
   it('should have a title', function(){
-    assert.equal($(".panel-title").html(), "family health history.")
-  })
+    assert.equal($(".panel-title").html(), "Family Health History")
+  });
 });
