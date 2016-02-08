@@ -31,12 +31,17 @@
     e.preventDefault();
     $('.member-section:first')
       .clone()
-      .insertAfter('.member-section:last');
+      .find('input').val('').prop( "checked", false ).removeClass('js-age error').end()
+      .insertAfter('.member-section:last')
+      .reset();
   });
+
 
   // delete a family memeber
   $('body').delegate('.js-delete-member', 'click', function(){
-    $(this).parents('.member-section').remove();
+    if($('.member-section').length != 1){
+      $(this).parents('.member-section').fadeOut().remove();
+    }
   });
 
 
