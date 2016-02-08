@@ -21,7 +21,7 @@ describe("form validations for age", function(){
 })
 
 describe('validation helper functions test', function(){
-  it('tooOld returns a false too old when too old', function(){
-    expect($.fn.tooOld(131)).to.be.false;
+  it('returns a true/false', function(){
+    expect($.fn.tooOld()).to.be.a('boolean');
   })
 })
