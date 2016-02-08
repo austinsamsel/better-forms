@@ -1,4 +1,4 @@
-# forms challenge.
+# forms challenge
 
 I started with this boilerplate I forked a while ago that I tend to use for small, static websites... it has gulp and npm to make things easier.
 
