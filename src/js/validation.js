@@ -8,13 +8,13 @@
   }
 
   // on the fly validation for age input
-  $(".js-age").on("change keyup", function() {
-    if ( $(this).tooYoung() || $(this).tooOld() ){
-      console.log('yo wtf');
-      $(this).addClass('error');
-    } else{
-      $(this).removeClass('error');
-    }
-  });
+  // $(".js-age").on("change keyup", function() {
+  //   if ( $(this).tooYoung() || $(this).tooOld() ){
+  //     console.log('yo wtf');
+  //     $(this).addClass('error');
+  //   } else{
+  //     $(this).removeClass('error');
+  //   }
+  // });
 
 })(jQuery, window, document);
