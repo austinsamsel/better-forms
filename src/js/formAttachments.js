@@ -18,8 +18,7 @@
    $('.member-section:first')
      .clone()
      .clearForm()
-     .insertAfter('.member-section:last')
-     .reset();
+     .insertAfter('.member-section:last');
   });
 
   // delete a family memeber
