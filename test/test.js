@@ -16,4 +16,12 @@ describe("form validations for age", function(){
     $('.js-age').val('131').keyup();
     assert.equal($('.js-age').hasClass('error'), true);
   })
+  //TODO: test if age is less than 0
+  //TODO: test if age is between 0 and 130
+})
+
+describe('validation helper functions test', function(){
+  it('tooOld returns a false too old when too old', function(){
+    expect($.fn.tooOld(131)).to.be.false;
+  })
 })
