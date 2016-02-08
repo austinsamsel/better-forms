@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="" name="description">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href=
+  'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel=
+  'stylesheet prefetch'>
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  <link href="//ajax.googleapis.com" rel="dns-prefetch">
+  <link href="assets/css/style.min.css" rel="stylesheet">
+  <script src="assets/components/modernizr/modernizr.js">
+  </script>
+</head>
+<body>
+  <div class="panel panel-default" id="family-health-history-profile">
+    <div class="panel-heading undefined">
+      <h4 class="panel-title header">Family Health History</h4>
+    </div>
+    <div class="panel-body form">
+      <div class="tips-wrap">
+          <strong>pro tip!</strong><br>
+          tab = go to next input<br>
+          enter = check/uncheck checkbox input<br>
+          shift + tab = go to previous input<br>
+          shift + a = add new family member<br>
+          shift + s = save the form.
+      </div>
+      <form>
+        <div>
+          <div>
+            <div>
+              <div class="row member-section">
+                <div class="col-lg-12 pad-forms">
+                  <div class="form-input row">
+                    <div>
+                      <div class="form-group">
+                        <div class="col-xs-6 input">
+                          <label class="control-label"><span>What was
+                          the relationship?</span></label>
+                          <select class="form-control" name=
+                          "familyMembers[0].relationship">
+                            <option value="father">
+                              Father
+                            </option>
+                            <option value="mother">
+                              Mother
+                            </option>
+                            <option value="brother">
+                              Brother
+                            </option>
+                            <option value="sister">
+                              Sister
+                            </option>
+                          </select>
+                        </div>
+                        <div class="col-xs-2">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 pad-forms">
+                  <div class="form-input row">
+                    <div>
+                      <div class="form-group">
+                        <div class="col-xs-6 input">
+                          <label class="control-label"><span>What age
+                          did they contract it?</span></label>
+                          <input class="form-control js-age" name=
+                          "familyMembers[0].ageContracted" type="number" min="1" max="130" />
+                        </div>
+                        <div class="col-xs-2">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 pad-forms">
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="365">Cardiovascular
+                        Disease</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="365" name=
+                          "familyMembers[0].cardiovascularDisease" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="366">Coronary Artery
+                        Disease</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="366" name=
+                          "familyMembers[0].coronaryArteryDisease" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="367">Cardiovascular
+                        Impairment</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="367" name=
+                          "familyMembers[0].cardiovascularImpairments" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="368">Cerebrovascular
+                        Disease</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="368" name=
+                          "familyMembers[0].cerebrovascularDisease" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="369">Diabetes</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="369" name="familyMembers[0].diabetes" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="370">Kidney Disease</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="370" name="familyMembers[0].kidneyDisease"
+                          type="checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="371">Colon Cancer</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="371" name="familyMembers[0].colonCancer"
+                          type="checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="372">Intestinal
+                        Cancer</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="372" name=
+                          "familyMembers[0].intestinalCancer" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="373">Breast Cancer</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="373" name="familyMembers[0].breastCancer"
+                          type="checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="374">Prostate Cancer</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="374" name="familyMembers[0].prostateCancer"
+                          type="checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="375">Ovarian Cancer</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="375" name="familyMembers[0].ovarianCancer"
+                          type="checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="376">Other Internal
+                        Cancer</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="376" name=
+                          "familyMembers[0].otherInternalCancer" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="377">Malignant
+                        Melanoma</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="377" name=
+                          "familyMembers[0].malignantMelanoma" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="378">Basal Cell
+                        Carcinoma</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="378" name=
+                          "familyMembers[0].basalCellCarcinoma" type=
+                          "checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="checkbox-row form-input row">
+                      <div>
+                        <label class="pad-left-space" for="379">Did they die?</label>
+                        <div class="input push-chk-bx-l">
+                          <input id="379" name="familyMembers[0].diedFromDisease"
+                          type="checkbox"><span class="help-block"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <button class="btn btn-danger js-delete-member margin-top-space" type="button"><i></i>
+                    <span>Delete</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="pad-forms">
+            <button class="btn btn-success js-add-member" type="button"><i></i> <span>Add
+            family member</span></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="panel-footer">
+    <div class="btn-group">
+      <button class="btn btn-default" type="button js-cancel">Cancel</button>
+      <button class="btn btn-primary js-submit" type=
+      "button"><span>Submit</span></button>
+    </div>
+  </div>
+  <script src="assets/js/scripts.min.js">
+  </script> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+  <script>
+                        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+                          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+                          e.src='//www.google-analytics.com/analytics.js';
+                          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+                          ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+</body>
+</html>
