@@ -26,10 +26,17 @@
   });
 
   // add a family member
-  $(".js-add-member").click(function(e){
+  //TODO: would probably need an ID attr attached.
+  $('.js-add-member').click(function(e){
+    e.preventDefault();
     $('.member-section:first')
       .clone()
       .insertAfter('.member-section:last');
+  });
+
+  // delete a family memeber
+  $('body').delegate('.js-delete-member', 'click', function(){
+    $(this).parents('.member-section').remove();
   });
 
 
